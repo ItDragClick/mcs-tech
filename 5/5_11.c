@@ -5,7 +5,7 @@ int main() {
 	if(x<=20){
 		price=x*a;
 	}else{
-		price=x*b;
+		price=(20*a)+((x-20)*b);
 	}
 	printf("%f",price);
 	
