@@ -4,7 +4,7 @@ int main() {
 	printf("Number of students: ");
 	scanf("%i",&x);
 	
-	float scores[x],sum;
+	float scores[x],sum=0;
 	for (int i=0;i<x;i++){
 		printf("Enter scores: ");
 		scanf("%f",&scores[i]);
